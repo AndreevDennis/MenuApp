@@ -13,6 +13,9 @@
 		C226D61E239297BF0085E603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C226D61C239297BF0085E603 /* Main.storyboard */; };
 		C226D620239297C10085E603 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C226D61F239297C10085E603 /* Assets.xcassets */; };
 		C226D623239297C10085E603 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C226D621239297C10085E603 /* LaunchScreen.storyboard */; };
+		C226D62B23929CC20085E603 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226D62A23929CC20085E603 /* FoodTableViewController.swift */; };
+		C226D62D2392A1CB0085E603 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226D62C2392A1CB0085E603 /* File.swift */; };
+		C226D6302392B03C0085E603 /* DrinksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C226D62F2392B03C0085E603 /* DrinksTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C226D61F239297C10085E603 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C226D622239297C10085E603 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C226D624239297C10085E603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C226D62A23929CC20085E603 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		C226D62C2392A1CB0085E603 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		C226D62F2392B03C0085E603 /* DrinksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,24 @@
 			children = (
 				C226D616239297BF0085E603 /* AppDelegate.swift */,
 				C226D618239297BF0085E603 /* art.scnassets */,
-				C226D61A239297BF0085E603 /* ViewController.swift */,
 				C226D61C239297BF0085E603 /* Main.storyboard */,
+				C226D62E2392B0240085E603 /* Controllers */,
 				C226D61F239297C10085E603 /* Assets.xcassets */,
+				C226D62C2392A1CB0085E603 /* File.swift */,
 				C226D621239297C10085E603 /* LaunchScreen.storyboard */,
 				C226D624239297C10085E603 /* Info.plist */,
 			);
 			path = MenuApp;
+			sourceTree = "<group>";
+		};
+		C226D62E2392B0240085E603 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C226D62F2392B03C0085E603 /* DrinksTableViewController.swift */,
+				C226D62A23929CC20085E603 /* FoodTableViewController.swift */,
+				C226D61A239297BF0085E603 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C226D61B239297BF0085E603 /* ViewController.swift in Sources */,
+				C226D6302392B03C0085E603 /* DrinksTableViewController.swift in Sources */,
+				C226D62D2392A1CB0085E603 /* File.swift in Sources */,
+				C226D62B23929CC20085E603 /* FoodTableViewController.swift in Sources */,
 				C226D617239297BF0085E603 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +311,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.MenuApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Menu1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +329,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-.MenuApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Menu1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
