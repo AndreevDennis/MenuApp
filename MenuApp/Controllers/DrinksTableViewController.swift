@@ -13,6 +13,8 @@ class DrinksTableViewController: UITableViewController {
     let drinksArray = ["Водка", "Вино", "Пиво"]
     
     
+    let offFood:[String] = []
+    
     override func viewDidLoad() {
     }
     

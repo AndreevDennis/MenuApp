@@ -6,6 +6,9 @@
   "resources" : [
     {
       "filename" : "carta.arreferenceimage"
+    },
+    {
+      "filename" : "carta1.arreferenceimage"
     }
   ]
 }
